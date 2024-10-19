@@ -23,10 +23,6 @@ export default function NavPrimary(props: PropsNav) {
           <Link href="/layout/login">
           Login
           </Link>
-        
-          <Link href="/layout/cadastro">
-          Cadastro
-          </Link>
         </div>
       </nav>
     </>
