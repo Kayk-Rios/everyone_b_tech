@@ -1,17 +1,18 @@
 import { Footer } from "./Footer";
-import NavBar from "./NavBar";
+
+import NavPrimary from "./NavPrimary";
 
 export default function ComponentName(props: any) {
   return (
     <>
       <div>
-        <NavBar />
+        <NavPrimary />
         
         <div>
           <main>{props.children}</main>
         </div>
 
-        <Footer />
+        <Footer cor="#203543" />
       </div>
     </>
   );
