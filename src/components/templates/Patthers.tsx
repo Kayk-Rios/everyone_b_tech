@@ -25,7 +25,7 @@ export default function Patters() {
 
   return (
     <div className="flex flex-col patters h-[600px]">
-      <h1 className="text-2xl font-bold mb-4">Partners:</h1>
+      <h1 className="text-2xl font-bold mb-4 ">Partners:</h1>
       <div className='mt-[100px]'>
         <div id="animation-carousel" className="relative w-full" data-carousel="static">
           <div className="relative overflow-hidden rounded-lg md:h-96">
