@@ -1,4 +1,5 @@
 'use client'
+import ImagemCoroa from "@/components/Imgames_logos/ImagemCoroa";
 import ModalOrcamento from "@/components/modal/ModalOrcamento";
 import CardsServicos from "@/components/templates/CardsServicos";
 import CardsServicosPlus from "@/components/templates/CardsServicosPlus";
@@ -14,7 +15,7 @@ export default function Servicos() {
          <section>
             <CardsServicos/>
         </section>
-         <h1>Serviços E Benefícios </h1>
+         <h1 className="flex gap-5 items-center">Serviços E Benefícios <ImagemCoroa/> </h1> 
         <section>
         <CardsServicosPlus/>
         </section>
