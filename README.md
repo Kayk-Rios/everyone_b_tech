@@ -10,7 +10,7 @@
  
 ## Instale dependencias com 
 ```bash
- npm run dev
+ npm install 
 ```
 Inicie o projeto com
 
