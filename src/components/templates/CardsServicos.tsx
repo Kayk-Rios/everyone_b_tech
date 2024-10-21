@@ -9,7 +9,7 @@ import {
 export default function CardsServicos( ){
     return(
         <>
-        <div className="grid grid-cols-3 gap-4 m-10">
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 m-10   ">
         <Accordion type="single" collapsible  >
             <AccordionItem value="item-1" className="bg-white  rounded-md ">
               <AccordionTrigger>Consultoria de tecnologia</AccordionTrigger>
