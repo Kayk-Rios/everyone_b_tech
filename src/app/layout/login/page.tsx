@@ -9,10 +9,11 @@ export default function Login(){
         <>
        
             <NavPrimary2/>
-            <div className="login flex flex-col text-center  ">
+           
+            <div className="login flex flex-col text-center   ">
             <h1>LOGIN</h1>   
             <div className="flex justify-center items-center h-[400px]">
-                <form className="flex flex-col text-start  gap-1 w-[600px] ">
+                <form className="flex flex-col text-start  gap-1 w-[600px] p-5   ">
                     <label  >EMAIL / CNPJ</label>
                     <input type="email" id="email" name="email"/>
                 
