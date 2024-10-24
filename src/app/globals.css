@@ -123,6 +123,9 @@ margin-bottom: 50px;
 .patters h1,p {
     color: #fff;
 }
+.corLogado{
+  background-color: #D78B5D;
+}
 
 
 @layer base {
