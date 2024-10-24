@@ -1,5 +1,6 @@
 import { Footer } from "@/components/templates/Footer";
 import NavPrimary2 from "@/components/templates/NavPrimary2";
+import Link from "next/link";
 
  
 
@@ -20,7 +21,7 @@ export default function Login(){
                     <label >SENHA</label>
                 <input type="password" id="password" name="senha"/>
                 
-                <input type="submit" value="ENTRAR" className="mt-[40px]"/>
+                <Link href="/layout/home"><input type="submit" value="ENTRAR" className="mt-[40px] ml-[38%]"/></Link>
                 </form>
             </div>
         </div> 

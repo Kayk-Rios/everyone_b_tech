@@ -1,5 +1,6 @@
 import { Footer } from "@/components/templates/Footer";
 import NavPrimary from "@/components/templates/NavPrimary3";
+import Link from "next/link";
 
 export default function Cadastro() {
   return (
@@ -8,7 +9,7 @@ export default function Cadastro() {
       <div className="login flex flex-col text-center h-[600px] cormeio  ">
         <h1 className="submit mt-2">CADASTRO</h1>
         <div className="flex justify-center items-center cadastro">
-          <form className="flex flex-col   text-start  gap-2 w-[600px] p-5 ">
+          <form className="flex flex-col    text-start  gap-2 w-[600px] p-5 ">
             <label>EMAIL</label>
             <input type="email" id="email" name="email" />
 
@@ -21,7 +22,7 @@ export default function Cadastro() {
             <label>TELEFONE</label>
             <input type="tel" id="tel" name="tel" />
 
-            <input type="submit" value="CADASTRAR" className="submit mt-[20px]" />
+            <Link href="/layout/login"><input type="submit" value="CADASTRAR" className="submit  mt-[20px] ml-[37%]  " /></Link>
           </form>
         </div>
       </div>
